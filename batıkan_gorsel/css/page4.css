@@ -1,0 +1,100 @@
+.list4{
+    color: rgb(237, 198, 40);
+}
+
+.list:hover{
+    color: rgb(237, 198, 40);
+}
+
+.box{
+    border: 5px solid rgb(237, 198, 40);
+    border-radius: 7%;
+    margin: 30px;
+    width: 20%;
+    height: 200px;
+    background-color: #444;
+    float: left;
+    padding: 15px;
+    margin-top: 7%;
+    margin-left: 6%;
+    color: white;
+    
+ }
+
+ .box:hover{
+    border: 5px solid rgb(237, 198, 40);
+    box-shadow: 0 20px 30px 0 rgba(221, 185, 42, 0.3);
+}
+
+ .header{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 38%;  
+    font-weight: bolder; 
+ }
+
+ .header:hover{
+    border-bottom: 3px solid rgb(237, 198, 40) ;
+ }
+
+ .Loc{
+   font-size: 15px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: beige;
+   position: relative;
+   top: 50px;
+   left: 50px;
+}
+
+ .socialMedia{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.socialMedia div{
+    display: inline;
+}
+
+.socialMedia div a{
+    display: inline-flex;
+    width: 70px;
+    height: 70px;
+    background: rgb(237, 198, 40);
+    font-size: 35px;
+    color: #333;
+    margin: 0 6px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    text-decoration: none;
+}
+.socialMedia div a:hover{
+    color: #fff;
+}
+
+.socialMedia .instagram a:hover{
+    background: #7315c6;
+}
+
+.socialMedia a i{
+    transition: 0.5s all;
+}
+
+.socialMedia a:hover > i{
+    transform: scale(1.6) rotate(360deg);
+}
+
+.socialMedia .google a:hover{
+    background: #d34c3d;
+}
+
+.socialMedia .linkedin a:hover{
+    background: #4267B2;
+}
+.socialMedia .github a:hover{
+    background: purple;
+}

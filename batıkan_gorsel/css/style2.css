@@ -1,0 +1,103 @@
+.container{
+   
+    width: 45%;
+    margin-left: 12%;
+    margin-top: 10%;
+    color: white;
+    box-sizing: border-box;
+    
+    
+}
+
+.merhabaText{
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+
+.meslekText{
+    font-size: 20px;
+    border: 1px solid rgb(89, 88, 84);
+    padding: 8px;
+    margin-left: 1%;
+    border-radius: 8px;
+    background: linear-gradient(to right, #222, #6f6d6d); 
+    color: white;    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.meslekText:hover{
+    background: linear-gradient(to left, #222, #6f6d6d); 
+    
+}
+   
+.aciklamaText{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+   
+}
+
+.img{
+    background-color: aqua;
+    width: 40%;
+    border-radius: 500px;
+    margin-left: 120%;
+    margin-top: -50%;
+    border: 8px solid;
+    border-image: linear-gradient(to right, #FFD700, #FFD700, #8B4513);
+    border-image-slice: 1;
+
+}
+ @media (min-width: 17in) {
+    img {
+      margin-top: -35%;
+      
+    }
+  }
+  
+  
+ /* @media (min-width: 15.5in) {
+    img {
+      margin-top: -45%;
+      
+    }
+  */ 
+  
+
+.checkOutMy{
+  position: absolute;
+  top: 88%;
+  left: 2%;
+  
+}
+
+.checkOutMy div{
+    display: inline;
+}
+
+.checkOutMy div a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    font-size: 25px;
+    color: yellow;
+    margin: 0 2px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.checkOutMy div span{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.checkOutMy a:hover{
+    background-color: yellow;
+    color: #333 ;
+}
+
+.list1{
+    color: rgb(237, 198, 40);
+}
